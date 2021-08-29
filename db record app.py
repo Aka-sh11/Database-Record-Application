@@ -7,7 +7,7 @@ root.geometry("400x600")
 root.iconbitmap('edit.ico')
 '''
 # Create a Database or connect to one
-conn=sqlite3.connect('address_book.db')
+conn = sqlite3.connect('address_book.db')
 # Create cursor
 c = conn.cursor()
 # Create a Table
